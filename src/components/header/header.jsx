@@ -35,8 +35,7 @@ const Header = ({ currentUser, hidden }) => (
         <CartIcon />
       </Link>
     </div>
-    {hidden? "" :  <CartDropDown />}
-   
+    {hidden ? "" : <CartDropDown />}
   </div>
 );
 //Getting value from redux
